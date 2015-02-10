@@ -1,0 +1,7 @@
+H:\Development Space\TestCode\VidaControls\VidaControls\bin\Debug\VidaControls.dll
+H:\Development Space\TestCode\VidaControls\VidaControls\bin\Debug\VidaControls.pdb
+H:\Development Space\TestCode\VidaControls\VidaControls\obj\Debug\VidaControls.csprojResolveAssemblyReference.cache
+H:\Development Space\TestCode\VidaControls\VidaControls\obj\Debug\VidaControls.UserControl1.resources
+H:\Development Space\TestCode\VidaControls\VidaControls\obj\Debug\VidaControls.csproj.GenerateResource.Cache
+H:\Development Space\TestCode\VidaControls\VidaControls\obj\Debug\VidaControls.dll
+H:\Development Space\TestCode\VidaControls\VidaControls\obj\Debug\VidaControls.pdb
