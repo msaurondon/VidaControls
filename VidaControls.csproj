@@ -47,12 +47,21 @@
     <Compile Include="BankAccounts.Designer.cs">
       <DependentUpon>BankAccounts.cs</DependentUpon>
     </Compile>
+    <Compile Include="CreditCards.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CreditCards.Designer.cs">
+      <DependentUpon>CreditCards.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="BankAccounts.resx">
       <DependentUpon>BankAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreditCards.resx">
+      <DependentUpon>CreditCards.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
