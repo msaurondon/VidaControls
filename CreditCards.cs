@@ -16,5 +16,28 @@ namespace VidaControls
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.Rows.Add(
+                textBox1.Text,
+            textBox2.Text,
+            textBox3.Text,
+            textBox4.Text,
+            textBox5.Text,
+            textBox6.Text,
+            textBox7.Text,
+            textBox8.Text
+                );
+
+            this.dataGridView1.Refresh();
+            foreach (Control t in this.Controls)
+            {
+                if (t.GetType() == typeof(TextBox))
+                {
+                    t.Text = String.Empty;
+                }
+            }
+        }
     }
 }
