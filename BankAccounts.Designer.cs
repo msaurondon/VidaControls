@@ -29,6 +29,12 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.AccountType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Institution = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AccountNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.RoutingNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Balance = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AccountNickname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -43,12 +49,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.AccountType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Institution = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AccountNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.RoutingNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Balance = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AccountNickname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,10 +62,40 @@
             this.RoutingNumber,
             this.Balance,
             this.AccountNickname});
-            this.dataGridView1.Location = new System.Drawing.Point(131, 12);
+            this.dataGridView1.Location = new System.Drawing.Point(9, 21);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(648, 150);
             this.dataGridView1.TabIndex = 0;
+            // 
+            // AccountType
+            // 
+            this.AccountType.HeaderText = "AccountType";
+            this.AccountType.Name = "AccountType";
+            // 
+            // Institution
+            // 
+            this.Institution.HeaderText = "Institution";
+            this.Institution.Name = "Institution";
+            // 
+            // AccountNumber
+            // 
+            this.AccountNumber.HeaderText = "Account Number";
+            this.AccountNumber.Name = "AccountNumber";
+            // 
+            // RoutingNumber
+            // 
+            this.RoutingNumber.HeaderText = "Routing Number";
+            this.RoutingNumber.Name = "RoutingNumber";
+            // 
+            // Balance
+            // 
+            this.Balance.HeaderText = "Balance";
+            this.Balance.Name = "Balance";
+            // 
+            // AccountNickname
+            // 
+            this.AccountNickname.HeaderText = "Account Nickname";
+            this.AccountNickname.Name = "AccountNickname";
             // 
             // comboBox1
             // 
@@ -169,7 +199,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(672, 195);
+            this.button1.Location = new System.Drawing.Point(238, 222);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 13;
@@ -179,44 +209,14 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(754, 196);
+            this.button2.Location = new System.Drawing.Point(370, 222);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 14;
             this.button2.Text = "Done";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // AccountType
-            // 
-            this.AccountType.HeaderText = "AccountType";
-            this.AccountType.Name = "AccountType";
-            // 
-            // Institution
-            // 
-            this.Institution.HeaderText = "Institution";
-            this.Institution.Name = "Institution";
-            // 
-            // AccountNumber
-            // 
-            this.AccountNumber.HeaderText = "Account Number";
-            this.AccountNumber.Name = "AccountNumber";
-            // 
-            // RoutingNumber
-            // 
-            this.RoutingNumber.HeaderText = "Routing Number";
-            this.RoutingNumber.Name = "RoutingNumber";
-            // 
-            // Balance
-            // 
-            this.Balance.HeaderText = "Balance";
-            this.Balance.Name = "Balance";
-            // 
-            // AccountNickname
-            // 
-            this.AccountNickname.HeaderText = "Account Nickname";
-            this.AccountNickname.Name = "AccountNickname";
-            // 
-            // UserControl1
+            // BankAccounts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -235,8 +235,8 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "UserControl1";
-            this.Size = new System.Drawing.Size(852, 247);
+            this.Name = "BankAccounts";
+            this.Size = new System.Drawing.Size(666, 254);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
