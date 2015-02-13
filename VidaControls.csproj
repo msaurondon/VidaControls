@@ -53,7 +53,19 @@
     <Compile Include="CreditCards.Designer.cs">
       <DependentUpon>CreditCards.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoanAccounts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LoanAccounts.Designer.cs">
+      <DependentUpon>LoanAccounts.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VidaMonthAssignement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VidaMonthAssignement.Designer.cs">
+      <DependentUpon>VidaMonthAssignement.cs</DependentUpon>
+    </Compile>
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
@@ -62,6 +74,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CreditCards.resx">
       <DependentUpon>CreditCards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoanAccounts.resx">
+      <DependentUpon>LoanAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VidaMonthAssignement.resx">
+      <DependentUpon>VidaMonthAssignement.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

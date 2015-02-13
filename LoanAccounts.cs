@@ -10,25 +10,24 @@ using System.Windows.Forms;
 
 namespace VidaControls
 {
-    public partial class BankAccounts: UserControl
+    public partial class LoanAccounts : UserControl
     {
-        public BankAccounts()
+        public LoanAccounts()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.dataGridView1.Rows.Add(comboBox1.SelectedItem.ToString(),
+            this.dataGridView1.Rows.Add(
                 textBox1.Text,
                 textBox2.Text,
                 textBox3.Text,
                 textBox4.Text,
-                textBox5.Text);
+                textBox5.Text
+                );
 
             this.dataGridView1.Refresh();
-           // comboBox1.SelectedText = "";
-            comboBox1.SelectedIndex = -1;
             foreach (Control t in this.Controls)
             {
                 if (t.GetType() == typeof(TextBox))
@@ -36,7 +35,6 @@ namespace VidaControls
                     t.Text = String.Empty;
                 }
             }
-
         }
     }
 }
