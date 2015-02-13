@@ -10,19 +10,13 @@ using System.Windows.Forms;
 
 namespace VidaControls
 {
-    public partial class VidaMonthAssignement : UserControl
+    public partial class MonthlyBudget : UserControl
     {
-        private string _assignedMonth;
-
-        public VidaMonthAssignement()
+        public MonthlyBudget()
         {
             InitializeComponent();
             controlSetup();
         }
-
-        private string _AssignmentMonth { set { _assignedMonth = value; } }
-        public string AssignmentMonth { get { return _assignedMonth; } }
-
 
         private void controlSetup()
         {
@@ -33,14 +27,23 @@ namespace VidaControls
                 dt = dt.AddMonths(1);
                 comboBox1.Items.Add(dt.ToString("MMMM") + " " + dt.ToString("yyyy"));
             }
+            comboBox1.SelectedIndex = 0;
         }
 
-        public event EventHandler SelectedIndexChanged;
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            _AssignmentMonth = comboBox1.SelectedItem.ToString();
-            this.SelectedIndexChanged(sender, e);
+            if (comboBox1.SelectedIndex > 0)
+            {
+                comboBox1.SelectedIndex = comboBox1.SelectedIndex - 1;
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedIndex < comboBox1.Items.Count-1)
+            {
+                comboBox1.SelectedIndex = comboBox1.SelectedIndex + 1;
+            }
         }
     }
 }

@@ -16,3 +16,6 @@ H:\Development Space\TestCode\VidaControls\VidaControls\obj\Debug\VidaControls.B
 H:\Development Space\TestCode\VidaControls\VidaControls\obj\Debug\VidaControls.CreditCards.resources
 H:\Development Space\TestCode\VidaControls\VidaControls\obj\Debug\VidaControls.LoanAccounts.resources
 H:\Development Space\TestCode\VidaControls\VidaControls\obj\Debug\VidaControls.VidaMonthAssignement.resources
+D:\TestCode\VidaControls\obj\Debug\VidaControls.LoanAccounts.resources
+D:\TestCode\VidaControls\obj\Debug\VidaControls.VidaMonthAssignement.resources
+D:\TestCode\VidaControls\obj\Debug\VidaControls.MonthlyBudget.resources
