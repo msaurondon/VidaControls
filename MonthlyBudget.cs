@@ -36,6 +36,7 @@ namespace VidaControls
             {
                 comboBox1.SelectedIndex = comboBox1.SelectedIndex - 1;
             }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -43,6 +44,28 @@ namespace VidaControls
             if (comboBox1.SelectedIndex < comboBox1.Items.Count-1)
             {
                 comboBox1.SelectedIndex = comboBox1.SelectedIndex + 1;
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (this.comboBox1.SelectedIndex == 0)
+            {
+                this.button1.Enabled = false;
+            }
+            else
+            {
+                this.button1.Enabled = true;
+            }
+
+            if (this.comboBox1.SelectedIndex == this.comboBox1.Items.Count-1)
+            {
+                this.button2.Enabled = false;
+            }
+            else
+            {
+
+                this.button2.Enabled = true;
             }
         }
     }

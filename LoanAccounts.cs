@@ -24,7 +24,9 @@ namespace VidaControls
                 textBox2.Text,
                 textBox3.Text,
                 textBox4.Text,
-                textBox5.Text
+                textBox5.Text,
+                textBox6.Text,
+                textBox7.Text
                 );
 
             this.dataGridView1.Refresh();
