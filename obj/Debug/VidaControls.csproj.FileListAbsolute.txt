@@ -19,3 +19,15 @@ H:\Development Space\TestCode\VidaControls\VidaControls\obj\Debug\VidaControls.V
 D:\TestCode\VidaControls\obj\Debug\VidaControls.LoanAccounts.resources
 D:\TestCode\VidaControls\obj\Debug\VidaControls.VidaMonthAssignement.resources
 D:\TestCode\VidaControls\obj\Debug\VidaControls.MonthlyBudget.resources
+H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.csprojResolveAssemblyReference.cache
+H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.BankAccounts.resources
+H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.CreditCards.resources
+H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.LoanAccounts.resources
+H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.MonthlyBudget.resources
+H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.VidaAmortization.resources
+H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.VidaMonthAssignement.resources
+H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.csproj.GenerateResource.Cache
+H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.dll
+H:\Development Space\TestCode\VidaControls\bin\Debug\VidaControls.dll
+H:\Development Space\TestCode\VidaControls\bin\Debug\VidaControls.pdb
+H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.pdb
