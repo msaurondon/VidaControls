@@ -24,7 +24,6 @@ H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.BankAccounts.r
 H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.CreditCards.resources
 H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.LoanAccounts.resources
 H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.MonthlyBudget.resources
-H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.VidaAmortization.resources
 H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.VidaMonthAssignement.resources
 H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.csproj.GenerateResource.Cache
 H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.dll

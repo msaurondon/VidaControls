@@ -67,12 +67,6 @@
       <DependentUpon>MonthlyBudget.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VidaAmortization.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="VidaAmortization.Designer.cs">
-      <DependentUpon>VidaAmortization.cs</DependentUpon>
-    </Compile>
     <Compile Include="VidaMonthAssignement.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -93,9 +87,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MonthlyBudget.resx">
       <DependentUpon>MonthlyBudget.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VidaAmortization.resx">
-      <DependentUpon>VidaAmortization.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VidaMonthAssignement.resx">
       <DependentUpon>VidaMonthAssignement.cs</DependentUpon>
