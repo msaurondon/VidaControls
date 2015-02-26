@@ -20,6 +20,5 @@ namespace VidaControls
         public decimal MinimumPayment { get; set; }
         public decimal MaximumPayment { get; set; }
         public DateTime DueDate { get; set; }
-
     }
 }
