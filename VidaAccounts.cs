@@ -17,7 +17,7 @@ namespace VidaControls
         [DataMember]
         public string Institution { get; set; }
         [DataMember]
-        public int AccountNumber { get; set; }
+        public string AccountNumber { get; set; }
         [DataMember]
         public int RoutingNumber { get; set; }
         [DataMember]
