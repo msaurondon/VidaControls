@@ -30,3 +30,4 @@ H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.dll
 H:\Development Space\TestCode\VidaControls\bin\Debug\VidaControls.dll
 H:\Development Space\TestCode\VidaControls\bin\Debug\VidaControls.pdb
 H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.pdb
+H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.VidaAutoPaymentCalculator.resources
