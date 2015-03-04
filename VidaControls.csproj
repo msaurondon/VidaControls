@@ -61,6 +61,7 @@
     <Compile Include="LoanAccounts.Designer.cs">
       <DependentUpon>LoanAccounts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Loans.cs" />
     <Compile Include="MonthlyBudget.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -75,11 +76,23 @@
     <Compile Include="VidaAutoPaymentCalculator.Designer.cs">
       <DependentUpon>VidaAutoPaymentCalculator.cs</DependentUpon>
     </Compile>
+    <Compile Include="VidaCompletePayoff.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VidaCompletePayoff.Designer.cs">
+      <DependentUpon>VidaCompletePayoff.cs</DependentUpon>
+    </Compile>
     <Compile Include="VidaMonthAssignement.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="VidaMonthAssignement.Designer.cs">
       <DependentUpon>VidaMonthAssignement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VidaPayoffCalculator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VidaPayoffCalculator.Designer.cs">
+      <DependentUpon>VidaPayoffCalculator.cs</DependentUpon>
     </Compile>
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
@@ -99,8 +112,14 @@
     <EmbeddedResource Include="VidaAutoPaymentCalculator.resx">
       <DependentUpon>VidaAutoPaymentCalculator.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="VidaCompletePayoff.resx">
+      <DependentUpon>VidaCompletePayoff.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VidaMonthAssignement.resx">
       <DependentUpon>VidaMonthAssignement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VidaPayoffCalculator.resx">
+      <DependentUpon>VidaPayoffCalculator.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
