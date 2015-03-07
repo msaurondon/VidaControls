@@ -20,9 +20,15 @@ namespace VidaControls
 
         private void button1_Click(object sender, EventArgs e)
         {
+            calculcateCustom = 0;
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            textBox5.Text = "";
             this.dataGridView1.Rows.Clear();
             if (textBox11.Text.Length == 0) { MessageBox.Show("Need a desired payment"); }
-            else if (textBox12.ReadOnly == false) { calculcateCustom = 1; }
+            else if (textBox12.ReadOnly == false) { calculcateCustom = 1; CalculateAmount(); }
             else { CalculateAmount(); }
         }
 
@@ -79,7 +85,58 @@ namespace VidaControls
                 yearCount = 0;
             }
 
+            if (calculcateCustom == 1)
+            {
+
+                decimal CustomAPR = GetAPR();
+                decimal _apr = Convert.ToDecimal(CustomAPR) / 100;
+                decimal _mpr = _apr / 12;
+                if (taxRate != 0) { taxes = payment * (taxRate / 100); }
+
+                for (int i = 1; i <= 72; i++)
+                {
+                    balance += payment;
+                    interest = balance * _mpr;
+                    principal = payment - interest;
+                    totalInterest += interest;
+                    totalPrincipal += principal;
+                    yearCount = (decimal)i / 12;
+                    if (yearCount == Convert.ToDecimal(3)) { __36 = ((totalPrincipal - (taxes * i)) + (tradeValue + downPayment)); }
+                    if (yearCount == Convert.ToDecimal(4)) { __48 = ((totalPrincipal - (taxes * i)) + (tradeValue + downPayment)); }
+                    if (yearCount == Convert.ToDecimal(5)) { __60 = ((totalPrincipal - (taxes * i)) + (tradeValue + downPayment)); }
+                    if (yearCount == Convert.ToDecimal(6)) { __72 = ((totalPrincipal - (taxes * i)) + (tradeValue + downPayment)); }
+
+                }
+
+                textBox1.Text = string.Format("{0}%", CustomAPR);
+                textBox2.Text = string.Format("$ {0}", Math.Round(__36,2));
+                textBox3.Text = string.Format("$ {0}", Math.Round(__48,2));
+                textBox4.Text = string.Format("$ {0}", Math.Round(__60,2));
+                textBox5.Text = string.Format("$ {0}", Math.Round(__72,2));
+            }
+
             this.dataGridView1.Refresh();
+        }
+
+        private decimal GetAPR()
+        {
+            decimal APR = 0;
+            if (textBox12.Text.Length > 0)
+            {
+                string downPaymentStr = textBox12.Text;
+                try
+                {
+                    APR = Convert.ToDecimal(downPaymentStr);
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Custom APR must be a decimal value");
+                    APR = 0;
+                }
+
+            }
+            return APR;
         }
 
         private decimal GetDownpayment()
@@ -170,6 +227,7 @@ namespace VidaControls
             else
             {
                 textBox12.ReadOnly = true;
+                textBox12.Text = "";
             }
         }
 
