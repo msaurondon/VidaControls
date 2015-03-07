@@ -70,6 +70,12 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VidaAccounts.cs" />
+    <Compile Include="VidaAutoEstimator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VidaAutoEstimator.Designer.cs">
+      <DependentUpon>VidaAutoEstimator.cs</DependentUpon>
+    </Compile>
     <Compile Include="VidaAutoPaymentCalculator.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -108,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MonthlyBudget.resx">
       <DependentUpon>MonthlyBudget.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VidaAutoEstimator.resx">
+      <DependentUpon>VidaAutoEstimator.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VidaAutoPaymentCalculator.resx">
       <DependentUpon>VidaAutoPaymentCalculator.cs</DependentUpon>

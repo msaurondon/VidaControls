@@ -33,3 +33,7 @@ H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.pdb
 H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.VidaAutoPaymentCalculator.resources
 H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.VidaCompletePayoff.resources
 H:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.VidaPayoffCalculator.resources
+D:\TestCode\VidaControls\obj\Debug\VidaControls.VidaAutoEstimator.resources
+D:\TestCode\VidaControls\obj\Debug\VidaControls.VidaAutoPaymentCalculator.resources
+D:\TestCode\VidaControls\obj\Debug\VidaControls.VidaCompletePayoff.resources
+D:\TestCode\VidaControls\obj\Debug\VidaControls.VidaPayoffCalculator.resources
