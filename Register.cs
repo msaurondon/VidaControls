@@ -8,14 +8,14 @@ namespace VidaControls
 {
     public class Register
     {
-        DateTime Date { get; set; }
-        bool CLR { get; set; }
-        string Payee { get; set; }
-        string Memo { get; set; }
-        List<string> Categories { get; set; }
-        string SelectedCategory { get; set; }
-        decimal Deposit { get; set; }
-        decimal Withdraw { get; set; }
-        decimal Balance { get; set; }
+        public DateTime Date { get; set; }
+        public bool CLR { get; set; }
+        public string Payee { get; set; }
+        public string Memo { get; set; }
+        public List<string> Categories { get; set; }
+        public string SelectedCategory { get; set; }
+        public decimal Deposit { get; set; }
+        public decimal Withdraw { get; set; }
+        public decimal Balance { get; set; }
     }
 }
