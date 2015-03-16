@@ -37,3 +37,19 @@ D:\TestCode\VidaControls\obj\Debug\VidaControls.VidaAutoEstimator.resources
 D:\TestCode\VidaControls\obj\Debug\VidaControls.VidaAutoPaymentCalculator.resources
 D:\TestCode\VidaControls\obj\Debug\VidaControls.VidaCompletePayoff.resources
 D:\TestCode\VidaControls\obj\Debug\VidaControls.VidaPayoffCalculator.resources
+G:\Development Space\TestCode\VidaControls\bin\Debug\VidaControls.dll
+G:\Development Space\TestCode\VidaControls\bin\Debug\VidaControls.pdb
+G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.csprojResolveAssemblyReference.cache
+G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.BankAccounts.resources
+G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.CreditCards.resources
+G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.LoanAccounts.resources
+G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.MonthlyBudget.resources
+G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.VidaAutoEstimator.resources
+G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.VidaAutoPaymentCalculator.resources
+G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.VidaCompletePayoff.resources
+G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.VidaMonthAssignement.resources
+G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.VidaPayoffCalculator.resources
+G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.VidaRegister.resources
+G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.csproj.GenerateResource.Cache
+G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.dll
+G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.pdb
