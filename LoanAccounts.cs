@@ -38,5 +38,17 @@ namespace VidaControls
                 }
             }
         }
+
+        public event EventHandler DoneAndSave_Clicked;
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.DoneAndSave_Clicked(sender, e);
+        }
+
+        public string GetFilledVidaAccountList()
+        { 
+            
+        }
     }
 }

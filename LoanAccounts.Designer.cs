@@ -29,6 +29,13 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Institution = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AccountNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Balance = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.APR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MinimumPayment = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DueDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AccountNickname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -41,13 +48,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.Institution = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AccountNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Balance = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.APR = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MinimumPayment = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DueDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AccountNickname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -70,6 +70,41 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(743, 150);
             this.dataGridView1.TabIndex = 0;
+            // 
+            // Institution
+            // 
+            this.Institution.HeaderText = "Institution";
+            this.Institution.Name = "Institution";
+            // 
+            // AccountNumber
+            // 
+            this.AccountNumber.HeaderText = "Account Number";
+            this.AccountNumber.Name = "AccountNumber";
+            // 
+            // Balance
+            // 
+            this.Balance.HeaderText = "Balance";
+            this.Balance.Name = "Balance";
+            // 
+            // APR
+            // 
+            this.APR.HeaderText = "APR";
+            this.APR.Name = "APR";
+            // 
+            // MinimumPayment
+            // 
+            this.MinimumPayment.HeaderText = "Minimum Payment";
+            this.MinimumPayment.Name = "MinimumPayment";
+            // 
+            // DueDate
+            // 
+            this.DueDate.HeaderText = "Due Date";
+            this.DueDate.Name = "DueDate";
+            // 
+            // AccountNickname
+            // 
+            this.AccountNickname.HeaderText = "Account Nickname";
+            this.AccountNickname.Name = "AccountNickname";
             // 
             // textBox1
             // 
@@ -169,41 +204,7 @@
             this.button2.TabIndex = 9;
             this.button2.Text = "Save-Close";
             this.button2.UseVisualStyleBackColor = true;
-            // 
-            // Institution
-            // 
-            this.Institution.HeaderText = "Institution";
-            this.Institution.Name = "Institution";
-            // 
-            // AccountNumber
-            // 
-            this.AccountNumber.HeaderText = "Account Number";
-            this.AccountNumber.Name = "AccountNumber";
-            // 
-            // Balance
-            // 
-            this.Balance.HeaderText = "Balance";
-            this.Balance.Name = "Balance";
-            // 
-            // APR
-            // 
-            this.APR.HeaderText = "APR";
-            this.APR.Name = "APR";
-            // 
-            // MinimumPayment
-            // 
-            this.MinimumPayment.HeaderText = "Minimum Payment";
-            this.MinimumPayment.Name = "MinimumPayment";
-            // 
-            // DueDate
-            // 
-            this.DueDate.HeaderText = "Due Date";
-            this.DueDate.Name = "DueDate";
-            // 
-            // AccountNickname
-            // 
-            this.AccountNickname.HeaderText = "Account Nickname";
-            this.AccountNickname.Name = "AccountNickname";
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox6
             // 
