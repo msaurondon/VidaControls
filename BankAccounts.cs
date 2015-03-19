@@ -79,5 +79,25 @@ namespace VidaControls
 
             return json;
         }
+
+        public void SetFilledVidaAccountList(string incoming)
+        {
+            JSonHelper helper = new JSonHelper();
+            List<VidaAccounts> vidaAccounts = helper.ConvertJSonToObject<List<VidaAccounts>>(incoming);
+
+            if (vidaAccounts.Count > 0)
+            {
+                foreach (VidaAccounts va in vidaAccounts)
+                {
+                    this.dataGridView1.Rows.Add(va.AccountType,
+                                                                va.Institution,
+                                                                va.AccountNumber,
+                                                                va.RoutingNumber,
+                                                                va.Balance,
+                                                                va.AccountNickName);
+                }
+            }
+            this.dataGridView1.Refresh();
+        }
     }
 }

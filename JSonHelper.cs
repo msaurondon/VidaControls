@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+using System.Runtime.Serialization.Json;
+
+namespace VidaControls
+{
+    public class JSonHelper
+    {
+        public string ConvertObjectToJSon<T>(T obj)
+        {
+            DataContractJsonSerializer ser = new DataContractJsonSerializer(typeof(T));
+            MemoryStream ms = new MemoryStream();
+            ser.WriteObject(ms, obj);
+            string jsonString = Encoding.Unicode.GetString(ms.ToArray());
+            ms.Close();
+            return jsonString;
+        }
+
+        public T ConvertJSonToObject<T>(string jsonString)
+        {
+            DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(T));
+            MemoryStream ms = new MemoryStream(Encoding.Unicode.GetBytes(jsonString));
+            T obj = (T)serializer.ReadObject(ms);
+            return obj;
+        }
+    }
+}

@@ -55,6 +55,7 @@
     <Compile Include="CreditCards.Designer.cs">
       <DependentUpon>CreditCards.cs</DependentUpon>
     </Compile>
+    <Compile Include="JSonHelper.cs" />
     <Compile Include="LoanAccounts.cs">
       <SubType>UserControl</SubType>
     </Compile>

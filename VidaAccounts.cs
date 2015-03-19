@@ -13,6 +13,8 @@ namespace VidaControls
         [DataMember]
         public int AccountID { get; set; }
         [DataMember]
+        public string AccountType { get; set; }
+        [DataMember]
         public int AccountTypeID { get; set; }
         [DataMember]
         public string Institution { get; set; }
