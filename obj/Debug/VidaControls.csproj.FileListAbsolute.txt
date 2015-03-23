@@ -53,3 +53,4 @@ G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.VidaRegister.r
 G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.csproj.GenerateResource.Cache
 G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.dll
 G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.pdb
+G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.VidaMonthlyBills.resources

@@ -75,7 +75,7 @@
             this.textBox1.BackColor = System.Drawing.Color.Green;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox1.Location = new System.Drawing.Point(22, 92);
+            this.textBox1.Location = new System.Drawing.Point(62, 92);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(100, 20);
@@ -85,7 +85,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(205, 92);
+            this.textBox2.Location = new System.Drawing.Point(168, 91);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 4;
@@ -96,7 +96,7 @@
             this.textBox3.BackColor = System.Drawing.Color.Green;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox3.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox3.Location = new System.Drawing.Point(22, 128);
+            this.textBox3.Location = new System.Drawing.Point(62, 128);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(100, 20);
@@ -106,7 +106,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(205, 128);
+            this.textBox4.Location = new System.Drawing.Point(168, 127);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 6;
@@ -116,7 +116,7 @@
             // 
             this.textBox5.BackColor = System.Drawing.Color.Red;
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.Location = new System.Drawing.Point(22, 164);
+            this.textBox5.Location = new System.Drawing.Point(62, 164);
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
             this.textBox5.Size = new System.Drawing.Size(100, 20);
@@ -126,7 +126,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(205, 164);
+            this.textBox6.Location = new System.Drawing.Point(168, 163);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 8;
@@ -134,7 +134,7 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(205, 202);
+            this.textBox7.Location = new System.Drawing.Point(168, 201);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 20);
             this.textBox7.TabIndex = 9;
@@ -145,7 +145,7 @@
             this.textBox8.BackColor = System.Drawing.Color.Green;
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox8.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox8.Location = new System.Drawing.Point(22, 202);
+            this.textBox8.Location = new System.Drawing.Point(62, 202);
             this.textBox8.Name = "textBox8";
             this.textBox8.ReadOnly = true;
             this.textBox8.Size = new System.Drawing.Size(100, 20);
@@ -169,7 +169,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
             this.Name = "MonthlyBudget";
-            this.Size = new System.Drawing.Size(345, 369);
+            this.Size = new System.Drawing.Size(345, 248);
             this.ResumeLayout(false);
             this.PerformLayout();
 

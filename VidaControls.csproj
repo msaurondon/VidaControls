@@ -96,6 +96,12 @@
     <Compile Include="VidaMonthAssignement.Designer.cs">
       <DependentUpon>VidaMonthAssignement.cs</DependentUpon>
     </Compile>
+    <Compile Include="VidaMonthlyBills.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VidaMonthlyBills.Designer.cs">
+      <DependentUpon>VidaMonthlyBills.cs</DependentUpon>
+    </Compile>
     <Compile Include="VidaPayoffCalculator.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -134,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VidaMonthAssignement.resx">
       <DependentUpon>VidaMonthAssignement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VidaMonthlyBills.resx">
+      <DependentUpon>VidaMonthlyBills.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VidaPayoffCalculator.resx">
       <DependentUpon>VidaPayoffCalculator.cs</DependentUpon>
