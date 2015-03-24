@@ -54,3 +54,4 @@ G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.csproj.Generat
 G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.dll
 G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.pdb
 G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.VidaMonthlyBills.resources
+G:\Development Space\TestCode\VidaControls\obj\Debug\VidaControls.VidaCategories.resources

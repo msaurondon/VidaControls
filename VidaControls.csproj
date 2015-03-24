@@ -49,6 +49,7 @@
     <Compile Include="BankAccounts.Designer.cs">
       <DependentUpon>BankAccounts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Categories.cs" />
     <Compile Include="CreditCards.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -83,6 +84,12 @@
     </Compile>
     <Compile Include="VidaAutoPaymentCalculator.Designer.cs">
       <DependentUpon>VidaAutoPaymentCalculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VidaCategories.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VidaCategories.Designer.cs">
+      <DependentUpon>VidaCategories.cs</DependentUpon>
     </Compile>
     <Compile Include="VidaCompletePayoff.cs">
       <SubType>UserControl</SubType>
@@ -134,6 +141,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VidaAutoPaymentCalculator.resx">
       <DependentUpon>VidaAutoPaymentCalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VidaCategories.resx">
+      <DependentUpon>VidaCategories.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VidaCompletePayoff.resx">
       <DependentUpon>VidaCompletePayoff.cs</DependentUpon>
