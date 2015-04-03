@@ -36,5 +36,7 @@ namespace VidaControls
         public decimal MaximumPayment { get; set; }
         [DataMember]
         public DateTime DueDate { get; set; }
+        [DataMember]
+        public string Category { get; set; }
     }
 }

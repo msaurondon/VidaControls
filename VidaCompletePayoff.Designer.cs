@@ -77,10 +77,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(4, 590);
+            this.textBox1.Location = new System.Drawing.Point(4, 591);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(812, 189);
+            this.textBox1.Size = new System.Drawing.Size(812, 188);
             this.textBox1.TabIndex = 2;
             // 
             // VidaCompletePayoff

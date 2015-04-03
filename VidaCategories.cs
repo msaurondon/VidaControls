@@ -27,7 +27,7 @@ namespace VidaControls
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.TextLength > 0)
+            if (textBox1.TextLength > 0 && listBox1.Items.Contains(textBox1.Text) == false)
             {
                 Categories parent = new Categories();
                 parent.Category = textBox1.Text;
@@ -41,7 +41,7 @@ namespace VidaControls
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (textBox2.TextLength > 0)
+            if (textBox2.TextLength > 0 && listBox2.Items.Contains(textBox2.Text) == false)
             {
                 Categories child = new Categories();
                 child.Category = textBox2.Text;
@@ -55,12 +55,14 @@ namespace VidaControls
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (comboBox1.SelectedItem.ToString().Length > 0 && comboBox2.SelectedItem.ToString().Length > 0)
+            string expenseStr = comboBox1.SelectedItem.ToString() + ":" + comboBox2.SelectedItem.ToString();
+
+            if (comboBox1.SelectedItem.ToString().Length > 0 && comboBox2.SelectedItem.ToString().Length > 0 && listBox3.Items.Contains(expenseStr)==false)
             {
-                Categories expense = new Categories();
-                string expenseStr = comboBox1.SelectedItem.ToString() + ":" + comboBox2.SelectedItem.ToString();
+                Categories expense = new Categories();    
                 listBox3.Items.Add(expenseStr);
                 expense.Category = expenseStr;
+                expenseCategories.Add(expense);
                 comboBox1.SelectedIndex = 0;
                 comboBox2.SelectedIndex = 0;
                 this.AddExpenseCategory_Clicked(sender, e);
@@ -89,6 +91,44 @@ namespace VidaControls
             string json = helper.ConvertObjectToJSon(expenseCategories);
 
             return json;
+        }
+
+        public void SetParentCategories(string incoming)
+        {
+            JSonHelper helper = new JSonHelper();
+            List<Categories> ca = helper.ConvertJSonToObject<List<Categories>>(incoming);
+            foreach (Categories c in ca)
+            {
+                listBox1.Items.Add(c.Category);
+                comboBox1.Items.Add(c.Category);
+            }
+
+            listBox1.Refresh();
+        }
+
+        public void SetChildCategories(string incoming)
+        {
+            JSonHelper helper = new JSonHelper();
+            List<Categories> ca = helper.ConvertJSonToObject<List<Categories>>(incoming);
+            foreach (Categories c in ca)
+            {
+                listBox2.Items.Add(c.Category);
+                comboBox2.Items.Add(c.Category);
+            }
+
+            listBox1.Refresh();        
+        }
+
+        public void SetExpenseCategories(string incoming)
+        {
+            JSonHelper helper = new JSonHelper();
+            List<Categories> ca = helper.ConvertJSonToObject<List<Categories>>(incoming);
+            foreach (Categories c in ca)
+            {
+                listBox3.Items.Add(c.Category);
+            }
+
+            listBox1.Refresh();            
         }
     }
 }
