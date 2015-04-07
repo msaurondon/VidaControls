@@ -77,6 +77,8 @@ namespace VidaControls
             JSonHelper helper = new JSonHelper();
             ca = helper.ConvertJSonToObject<List<Categories>>(json);
 
+            this.comboBox1.Items.Clear();
+
             foreach (Categories c in ca)
             {
                 this.comboBox1.Items.Add(c.Category);

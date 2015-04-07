@@ -85,6 +85,7 @@
     <Compile Include="VidaAutoPaymentCalculator.Designer.cs">
       <DependentUpon>VidaAutoPaymentCalculator.cs</DependentUpon>
     </Compile>
+    <Compile Include="VidaBudgetRounding.cs" />
     <Compile Include="VidaCategories.cs">
       <SubType>UserControl</SubType>
     </Compile>
